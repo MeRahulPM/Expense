@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+.Expensebody{
+  margin: auto;
+  width: 45%;
+  border: 2px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+.Expensebody .heading{
+  font-size:45px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.ExpenseInput{
+  border:2px solid black;
+  padding:1px;
+  text-align: center;
+  height: 130px;
+}
+.ExpenseInput .header{
+  font-size:large;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.ExpenseDetails{
+  
+  margin-top: 35px;
+  border:2px solid black;
+  padding:25px;
+  text-align: left;
+  height: 200px;
+}
+.ExpenseDetails .header{
+  font-size:medium;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.ExpenseDetails .listItem{
+  
+      max-height: 150px;
+      overflow-y: auto;
+  }
+
+  .ExpenseDetails .listItem::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+.ExpenseDetails .listItem::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+ 
+.ExpenseDetails .listItem::-webkit-scrollbar-thumb {
+    background-color: #808ece;
+    border-radius: 100px;
+}
